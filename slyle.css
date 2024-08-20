@@ -1,0 +1,91 @@
+/*barra superior*/
+[class*=barra]{
+    background: color #555;;
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+
+}
+/*barra de lo mas nuevo*/
+[class*=lo-mas-nuevo]{
+    background: color #555;;
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+/*barra superior de tienda y flecha*/
+[class=tienda]{
+    background: color #555;;
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: end;
+}
+/*productos de la tienda*/
+[class*=productos]{
+    background: color #555;;
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    justify-content: space-between;
+}
+/*carrusel abajo de inicio*/
+[class=carrusel]{
+    background: color #555;;
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+/*categorias*/
+[class=categoria-1]{
+    background-image: url(#);
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+[class=categoria-2]{
+    background-image: url(#);
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+[class=categoria-3]{
+    background-image: url(#);
+    padding: 5px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+}
+ 
